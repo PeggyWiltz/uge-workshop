@@ -33,4 +33,12 @@ sync.
 Look at history of repo:
 git log or git ll
 
+Alternate ways to add files:
+git add .
+git add <filename>
+git commit -a (does both add and commit with no comment)
+
+My version does not let me commit with an empty commit message (aborts) which is
+actually good.  Keeps me honest.
+
 
