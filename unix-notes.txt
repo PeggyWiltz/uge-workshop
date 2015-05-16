@@ -88,3 +88,7 @@
 
     If you have files or folders with spaces, escape them with \ before the space, e.g. cd my\ Music gets you to My Music folder.
 
+    Show hidden files:
+      You can show hidden files and folders with ls -a
+
+

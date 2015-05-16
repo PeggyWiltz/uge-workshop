@@ -1,0 +1,36 @@
+Git section:
+Usages of version control (source control):
+1.  Backup
+2.  Share source code
+3.  Collaborate
+4.  Keeps a history of changes
+5.  Keeps software safe
+
+Create repository (repo) in Git:
+1.  Cd into desired directory
+2.  Type “git init” in directory to make it into a repo
+3.  If there are already files there, git status will tell you.  Also gives other
+  suggestions – shows untracked (need to be added) files.  Will shows files that
+  are in staging, have been committed, need to be pushed to origin.
+4.  Commit – Paul is a stickler about commit messages – use present voice,
+  start with capital letter.
+5.  Anything that is staged will be added to commit.  (Anything we have ‘added’)
+
+Parts of a commit:
+1. Author
+2. Timestamp
+3. Message (checkin comment)
+4. Unique id
+5. The actual changes (files/lines changed)
+
+Git workflow:
+MODIFY -->untracked unstaged --> ADD --> staged or tracked --> COMMIT -->
+committed (or safe), clean --> MODIFY etc
+
+Next step to make safe - connect to remote repo - GitHub or company server - and
+sync.
+
+Look at history of repo:
+git log or git ll
+
+
