@@ -1,0 +1,90 @@
+    # Windows can't do man command.  Have to use Google. e.g. Google "man ls" will
+    # give me the man page for ls
+    1  man ls
+
+    # None of the upper-case ls flags seem to work.
+    2  ls -B
+    3  ls -D
+    4  ls -C
+    5  ls -g
+
+    # Clear will just move the screen view to where the cursor is.
+    6  clear
+
+    # I was using a different interface (Console2) for part of the class
+    # so I don't have my whole history in this file.  This is from Git Bash.
+    # Shells do not seem to maintain history in Windows after being closed down.
+    7  pwd
+    8  cd ...
+    9  cd ls ..
+   10  cd ..
+   11  cd /
+   12  ls ..
+   13  cd ..
+   14  pwd
+   15  cd ~
+   16  history
+   17  history | tail
+   18  history | tail -r
+   19  history | tail --help
+   20  history | tail
+   21  history 5
+   22  history 10
+   23  history | more
+   24  history | less
+   25  history | less
+   26  cd documents
+   27  ls
+   28  /
+   29  cd /
+   30  ls
+   31  cd c:
+   32  pwd
+   33  ls
+
+   #  This gets me to the C:\recipe folder where I have a git repo set up.
+   34  cd recipe
+   35  git status
+   36  cd ~
+   37  history > moving-around.txt
+
+   # it took me a while to figure out how to open this file in sublime text.
+   # The command is just "subl" and the filename, but I had the filename spelled
+   # wrong, so it opened the file but with nothing in it.  So you can open new
+   # and existing files the same way.
+
+   My notes:
+   lecture on history and philosophy of Unix os
+   3 reasons Unix is good for devs
+    1.  Small programs
+    2.  Data as text (like JSON format) for storage
+    3.  Input/output redirection
+
+    Kernel –
+    Manages hardware
+    Sits between other programs and CPU
+    Manages CPU, Memory, Devices
+    Unix Kernel is safe from hackers (protected in safe part of memory)
+
+    Unix Shell (command line)
+    Sits between you and the kernel, lets you interface with it
+    (name of shell comes from nut – the shell is the part that protects the “kernel” of the nut)
+
+    Using command line
+    Uname command (Unix name) – for windows I see MINGW32_NT-6.2
+    Apple users see “Darwin”
+
+    Long setup process – installing git, shell etc. for Mac machines.  I’ve already done this for Windows last night.  Don’t have some of the stuff they have.
+
+    Installed “Scoop” just to see what it’s about.  Supposed to be a sort of HomeBrew for Windows.
+    http://outcoldman.com/en/archive/2014/07/20/scoop/
+    (ps needed to set executionpolicy to unrestricted to download this in the Windows Power
+    Shell.
+
+    Next:
+    Reading the prompt.  I will use Console2 or Git Bash (either seems to work)
+
+    “man” unix command does not work in Windows.  But Windows users can use what primitive man has used since the beginning of time: Google.  “man ls” in google will show the man page for ls
+
+    If you have files or folders with spaces, escape them with \ before the space, e.g. cd my\ Music gets you to My Music folder.
+
